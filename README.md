@@ -21,6 +21,7 @@ position by ~70%. Alongside that I build async Telegram bots with aiogram, Redis
 |---|---|
 | [job-market-monitor](https://github.com/qBrav0/job-market-monitor) | Labour-market analysis for recruiters, used in production: FastAPI + Playwright scrape 7 job boards and 4 CV databases into an Excel report with salary analytics. Cut research time per position by ~70%. Anonymised copy. |
 | [visitor-pass-bot](https://github.com/qBrav0/visitor-pass-bot) | Telegram bot for site entry passes, used in production: two-step approval (safety, then security), SMS codes, guard check-in, six roles with invite links. Anonymised copy. |
+| [case-studies](https://github.com/qBrav0/case-studies) | Write-ups of internal systems whose code stays with the company: Power Apps with a Python bridge to the ERP, request workflows, a Power BI dashboard generated as code. |
 | [parilka_mafia_bot](https://github.com/qBrav0/parilka_mafia_bot) | Telegram Mafia game played with voice messages: an async game engine on aiogram 3 with room and player state in Redis, live countdown timers and PostgreSQL stats. |
 | [micro_hero_bot](https://github.com/qBrav0/micro_hero_bot) | Bot that runs a real board-game club: schedule, sign-ups with seat limits, reminders and an admin panel. SQLModel on SQLite (dev) or PostgreSQL (prod), Docker. |
 | [gadget_store](https://github.com/qBrav0/gadget_store) | Django 5.2 online store with a DRF API: catalogue, session cart, checkout, per-user order access. Tested on PostgreSQL in CI. |
